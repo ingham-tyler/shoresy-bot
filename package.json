@@ -1,25 +1,33 @@
 {
-  "name": "shoresy-bot",
-  "version": "0.1.0",
+  "author": "Tyler Ingham",
+  "bugs": {
+    "url": "https://github.com/ingham-tyler/shoresy-bot/issues"
+  },
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "discord.js-commando": "^0.10.0"
+  },
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "nodemon": "^1.18.10"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ingham-tyler/shoresy-bot.git"
-  },
+  "homepage": "https://github.com/ingham-tyler/shoresy-bot#readme",
   "keywords": [
     "shorsey",
     "bot",
     "discord",
     "bots"
   ],
-  "author": "Tyler Ingham",
   "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/ingham-tyler/shoresy-bot/issues"
+  "main": "index.js",
+  "name": "shoresy-bot",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ingham-tyler/shoresy-bot.git"
   },
-  "homepage": "https://github.com/ingham-tyler/shoresy-bot#readme"
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "version": "0.1.0"
 }
